@@ -102,6 +102,9 @@ const LoginPage: React.FC = () => {
             <Link to="/forgotPassword" className="authLink">
               فراموشی رمز عبور
             </Link>
+            <Link to="/mainDashboard" className="authLink">
+                        داشبورد اصلی
+            </Link>
           </div>
     </AuthLayout>
     </>
