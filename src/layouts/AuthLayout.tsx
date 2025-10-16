@@ -11,7 +11,7 @@ const AuthLayout : React.FC<MyComponentProps> = ({ children }) => {
   return (
     <Box className="h-screen relative">
             <ToastContainer rtl={true}/>
-            <ParticleEffect preset="constellation"></ParticleEffect>
+            <ParticleEffect></ParticleEffect>
             <Box className="w-full main-auth-div relative z-10"> 
                 <section className="grid items-center justify-center w-full md:grid-cols-2"> 
                     <div className="flex opacity-80 md:w-full items-center justify-center">
