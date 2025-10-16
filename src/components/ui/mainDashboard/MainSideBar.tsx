@@ -106,6 +106,7 @@ const MainSideBar : React.FC = () => {
   }, []);
 
   const handleTopAccordionChange = (title: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
+    console.log(event);
     setExpandedAccordion(isExpanded ? title : false);
   };
 
